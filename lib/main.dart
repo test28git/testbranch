@@ -19,7 +19,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Text("PRIVET001"),
+      body: Center(child: Text("PRIVET")),
     );
   }
 }
